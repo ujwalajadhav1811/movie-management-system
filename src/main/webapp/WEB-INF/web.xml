@@ -4,4 +4,44 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>MovieServlet</servlet-name>
+  	<display-name>MovieServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.techdenovo.moviecontroller.MovieServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Mservlet</servlet-name>
+  	<display-name>Mservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.techdenovo.moviecontroller.Mservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MovieServlet1</servlet-name>
+  	<display-name>MovieServlet1</display-name>
+  	<description></description>
+  	<servlet-class>com.techdenovo.moviecontroller.MovieServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MMM</servlet-name>
+  	<display-name>MMM</display-name>
+  	<description></description>
+  	<servlet-class>com.techdenovo.moviecontroller.MMM</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MovieServlet</servlet-name>
+  	<url-pattern>/MovieServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Mservlet</servlet-name>
+  	<url-pattern>/Mservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MovieServlet1</servlet-name>
+  	<url-pattern>/MovieServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MMM</servlet-name>
+  	<url-pattern>/MMM</url-pattern>
+  </servlet-mapping>
 </web-app>

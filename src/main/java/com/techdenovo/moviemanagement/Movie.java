@@ -1,4 +1,5 @@
-//package com.techdenovo.ujwala;
+package com.techdenovo.moviemanagement;
+
 public class Movie 
 {
 	private int id;
@@ -63,5 +64,6 @@ public class Movie
 
 	
 }
+
 
 
